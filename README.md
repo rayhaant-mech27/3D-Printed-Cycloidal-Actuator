@@ -51,7 +51,7 @@ The actuator was modeled in SolidWorks with a profile generated via parametric e
 <br>
 
 <p align="center">
-  <img src="media/7.png" alt="7.jpeg">
+  <img src="media/7.jpeg" alt="7.jpeg">
   <br>
   <em>Complete Assembly of Motor & Printed Parts</em>
 </p>

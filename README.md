@@ -18,7 +18,7 @@ The actuator was modeled in SolidWorks with a profile generated via parametric e
 ## CAD Assembly
 
 <p align="center">
-  <img src="media/cad1.png" alt="cad1">
+  <img src="media/cad1.jpeg" alt="cad1">
   <br>
   <em>Isometric View</em>
 </p>

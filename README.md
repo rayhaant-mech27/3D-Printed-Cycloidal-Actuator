@@ -25,14 +25,14 @@ The actuator was modeled in SolidWorks with a profile generated via parametric e
 <br>
 
 <p align="center">
-  <img src="media/cad2.png" alt="cad2">
+  <img src="media/cad2.jpeg" alt="cad2">
   <br>
   <em>Front View</em>
 </p>
 <br>
 
 <p align="center">
-  <img src="media/cad4.png" alt="cad4">
+  <img src="media/cad4.jpeg" alt="cad4">
   <br>
   <em>Changed Transparency</em>
 </p>
@@ -44,14 +44,14 @@ The actuator was modeled in SolidWorks with a profile generated via parametric e
 
 
 <p align="center">
-  <img src="media/6.png" alt="Assembled Prototype 1">
+  <img src="media/6.jpeg" alt="6.jpeg">
   <br>
   <em>Assembly without Top Cover Plate</em>
 </p>
 <br>
 
 <p align="center">
-  <img src="media/7.png" alt="Assembled Prototype 2">
+  <img src="media/7.png" alt="7.jpeg">
   <br>
   <em>Complete Assembly of Motor & Printed Parts</em>
 </p>

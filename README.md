@@ -1,47 +1,89 @@
 # 3D-Printed PETG Cycloidal Actuator (19:1)
 
 ## Project Overview
-[cite_start]This project involves the design, prototyping, and performance analysis of a high-reduction cycloidal drive fabricated using PETG material via FDM 3D printing[cite: 49, 85]. [cite_start]Cycloidal drives offer significant advantages in robotics, such as high reduction ratios in a single stage and very low backlash[cite: 50, 81]. [cite_start]This research specifically investigates the feasibility of using PETG for functional mechanical actuators[cite: 51, 128].
-
+This project involves the design, prototyping, and performance analysis of a high-reduction cycloidal drive fabricated using PETG material via FDM 3D printing. Cycloidal drives offer significant advantages in robotics, such as high reduction ratios in a single stage and very low backlash. This research specifically investigates the feasibility of using PETG for functional mechanical actuators.
 ---
 
 ## Design Specifications
-[cite_start]The actuator was modeled in SolidWorks with a profile generated via parametric equations[cite: 261, 309].
+The actuator was modeled in SolidWorks with a profile generated via parametric equations.
+* **Theoretical Reduction Ratio:** 19:1.
+* **Eccentricity ($E$):** 2.0 mm.
+* **Ring Pin Radius ($R$):** 40.0 mm.
+* **Number of Ring Pins ($Z_r$):** 20.
+* **Number of Cycloidal Lobes ($Z_d$):** 19.
+* **Housing Dimensions:** 80 mm Diameter x 40 mm Height.
 
-* [cite_start]**Theoretical Reduction Ratio:** 19:1[cite: 198, 237].
-* [cite_start]**Eccentricity ($E$):** 2.0 mm[cite: 204].
-* [cite_start]**Ring Pin Radius ($R$):** 40.0 mm[cite: 207].
-* [cite_start]**Number of Ring Pins ($Z_r$):** 20[cite: 209].
-* **Number of Cycloidal Lobes ($Z_d$):** 19[cite: 212].
-* **Housing Dimensions:** 80 mm Diameter x 40 mm Height[cite: 198].
+---
+
+## CAD Assembly
+
+<p align="center">
+  <img src="media/cad1.png" alt="cad1">
+  <br>
+  <em>Isometric View</em>
+</p>
+<br>
+
+<p align="center">
+  <img src="media/cad2.png" alt="cad2">
+  <br>
+  <em>Front View</em>
+</p>
+<br>
+
+<p align="center">
+  <img src="media/cad4.png" alt="cad4">
+  <br>
+  <em>Changed Transparency</em>
+</p>
+<br>
+
+---
+
+## Assembled Prototype
+
+
+<p align="center">
+  <img src="media/6.png" alt="Assembled Prototype 1">
+  <br>
+  <em>Assembly without Top Cover Plate</em>
+</p>
+<br>
+
+<p align="center">
+  <img src="media/7.png" alt="Assembled Prototype 2">
+  <br>
+  <em>Complete Assembly of Motor & Printed Parts</em>
+</p>
+<br>
 
 ---
 
 ## Fabrication & Materials
-The components were fabricated using **PETG (Polyethylene Terephthalate Glycol)**, selected for its superior strength-to-flexibility ratio and low warping compared to PLA and ABS[cite: 86, 184].
+The components were fabricated using **PETG (Polyethylene Terephthalate Glycol)**, selected for its superior strength-to-flexibility ratio and low warping compared to PLA and ABS.
 
-* [cite_start]**Infill Density:** 100%[cite: 342].
-* [cite_start]**Infill Pattern:** Gyroid (for isotropic strength)[cite: 342].
-* **Layer Height:** 0.16 mm[cite: 342].
-* [cite_start]**Wall Count:** 4[cite: 342].
-* [cite_start]**Standard Parts:** Integrated 6202 deep groove ball bearings for the eccentric input shaft[cite: 302, 352].
+* **Infill Density:** 100%.
+* **Infill Pattern:** Gyroid (for isotropic strength).
+* **Layer Height:** 0.16 mm.
+* **Wall Count:** 4.
+* **Standard Parts:** Integrated 6202 deep groove ball bearings for the eccentric input shaft.
 
 ---
 
 ## Performance Analysis & Experimental Results
-[cite_start]The actuator underwent systematic testing using a NEMA 17 stepper motor and a custom test rig to verify its mechanical properties[cite: 370, 386].
+The actuator underwent systematic testing using a 5010 750kv BLDC motor and a custom test rig to verify its mechanical properties[cite: 370, 386].
 
 | Metric | Measured Value | Ideal/Target |
 | :--- | :--- | :--- |
-| **Reduction Ratio** | [cite_start]18.99:1 [cite: 680] | [cite_start]19:1 [cite: 237] |
-| **Peak Output Torque** | [cite_start]5.28 Nm [cite: 56, 521] | [cite_start]11.0 Nm (Theoretical) [cite: 259] |
-| **Max Efficiency** | [cite_start]61.8% (at light load) [cite: 57, 522] | [cite_start]65% (Assumed) [cite: 256] |
-| **Backlash** | [cite_start]0.24° [cite: 58, 502] | [cite_start]< 0.5° [cite: 105] |
+| **Reduction Ratio** | 18.99:1  | 19:1 |
+| **Peak Output Torque** | 5.28 Nm  | 11.0 Nm (Theoretical)  |
+| **Max Efficiency** | 61.8% (at light load)  | 65% (Assumed) |
+| **Backlash** | 0.24°  | < 0.5°  |
 
 ### Key Observations:
-* [cite_start]**Precision:** The kinematic verification showed near-perfect agreement with the theoretical reduction ratio, confirming the accuracy of FDM-printed cycloidal geometry[cite: 425, 520].
-* **Backlash:** At 0.24°, the precision is comparable to industrial harmonic drives and vastly superior to standard spur gears[cite: 502, 523].
-* [cite_start]**Failure Mode:** Testing revealed that progressive plastic deformation of the cycloidal disc lobes is the dominant failure mode at input torques above 1.4 Nm[cite: 512, 526].
+* **Precision:** The kinematic verification showed near-perfect agreement with the theoretical reduction ratio, confirming the accuracy of FDM-printed cycloidal geometry.
+* **Backlash:** At 0.24°, the precision is comparable to industrial harmonic drives and vastly superior to standard spur gears.
+* **Failure Mode:** Testing revealed that progressive plastic deformation of the cycloidal disc lobes is the dominant failure mode at input torques above 1.4 Nm.
 
 ---
 
@@ -54,6 +96,6 @@ The components were fabricated using **PETG (Polyethylene Terephthalate Glycol)*
 ---
 
 ## Future Scope
-* [cite_start]Investigating **Carbon Fiber reinforced PETG** for higher stiffness and torque capacity[cite: 540, 708].
-* Integrating **metal sleeves/inserts** at high-stress contact points to mitigate lobe deformation[cite: 545, 710].
-* [cite_start]Implementation of **active cooling** schemes for high-load operations[cite: 553, 712].
+* Investigating **Carbon Fiber reinforced PETG** for higher stiffness and torque capacity.
+* Integrating **metal sleeves/inserts** at high-stress contact points to mitigate lobe deformation.
+* Implementation of **active cooling** schemes for high-load operations.

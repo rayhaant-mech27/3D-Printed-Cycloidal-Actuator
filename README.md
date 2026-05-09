@@ -99,3 +99,13 @@ The actuator underwent systematic testing using a 5010 750kv BLDC motor and a cu
 * Investigating **Carbon Fiber reinforced PETG** for higher stiffness and torque capacity.
 * Integrating **metal sleeves/inserts** at high-stress contact points to mitigate lobe deformation.
 * Implementation of **active cooling** schemes for high-load operations.
+
+---
+
+## Author
+
+RAYHAAN T 
+<br>
+Final Year Mechanical Engineering Student | Robotics Enthusiast  
+📍 Chennai, India  
+🔗 linkedin.com/in/rayhaan-t-742709290/
